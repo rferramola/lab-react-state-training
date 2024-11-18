@@ -12,8 +12,7 @@ function ClickablePicture() {
 
   return (
     <>
-      {imageClicked ? (
-        <img src={imageWithGlasses} onClick={onClickImage} />
+      {imageClicked ? (<img src={imageWithGlasses} onClick={onClickImage} />
       ) : (
         <img src={imageWithoutGlasses} onClick={onClickImage} />
       )}
