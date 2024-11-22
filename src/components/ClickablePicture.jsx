@@ -7,7 +7,6 @@ function ClickablePicture() {
 
   const onClickImage = () => {
     setImageClicked((isClicked) => !isClicked);
-    // setImageClicked(!imageClicked);
   };
 
   return (
